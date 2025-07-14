@@ -3,11 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
-  background-color: #fffdf7;
+  background: url('bgimg2.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #333;
   line-height: 1.6;
 }
@@ -16,12 +17,38 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  color: #333;
+  color: rgb(156, 156, 226);
 }
+
+.container2 {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  color: rgb(12, 12, 12);
+}
+
+.container3 {
+  color: rgb(17, 16, 16);
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: cursive;
+  
+  
+}
+.container3 h1{
+  font-size: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
 
 /* Header */
 header {
-  background: #ff7043;
+  background-image: url("./header2.jpg") ;
+  opacity: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   padding: 20px 0;
 }
@@ -35,12 +62,12 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 120px;
 }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -69,7 +96,7 @@ nav a:hover {
 /* Recipe Cards */
 .recipes {
   padding: 50px 0;
-  background-color: #fff8f0;
+  
 }
 
 .recipe-grid {
@@ -110,8 +137,11 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background: #ff7043;
-  color: white;
+  background-image: url("./header2.jpg") ;
+  opacity: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(12, 12, 12);
   text-align: center;
   padding: 20px;
   margin-top: 50px;
